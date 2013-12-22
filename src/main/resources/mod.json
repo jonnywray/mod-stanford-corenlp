@@ -1,0 +1,9 @@
+{
+  "main":"com.jonnywray.vertx.***",
+
+  "description":"Natural language analysis module for Vert.x using Stanford CoreNLP",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Jonny Wray",
+  "keywords": ["NLP", "stanford", "corenlp", "natural", "language", "processing"],
+  "homepage": "https://github.com/jonnywray/mod-stanford-corenlp"
+}

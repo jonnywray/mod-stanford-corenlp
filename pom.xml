@@ -34,7 +34,7 @@
   <scm>
         <url>https://github.com/jonnywray/mod-stanford-corenlp</url>
         <connection>scm:git:git://github.com/jonnywray/mod-stanford-corenlp.git</connection>
-        <developerConnection>scm:git:git@github.com:onnywray/mod-stanford-corenlp.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:jonnywray/mod-stanford-corenlp.git</developerConnection>
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

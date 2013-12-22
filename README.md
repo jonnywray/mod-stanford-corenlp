@@ -6,9 +6,19 @@ mod-stanford-corenlp
 
 ## Configuration
 
-The module takes, as usual, a JSON object for configuration. The values specified are passed directly to the
-[StanfordCoreNLP]() configuration as the annotator options. As a minimum a comma separated list of annotators
-is required under the `annotators` property
+The module takes a JSON object for configuration.
+
+```
+{
+    "address": <address>,
+    "annotators": <annotator list>
+}
+```
+ where the parameters are
+
+ * `address`: The main address for the module. Every module has a main address. Defaults to `jonnywray.corenlp`
+ * `annotators`: List of annotators in the format expected by the StanfordCoreNLP object. Is required but no default specified
+ * any number of other parameters that are passed directly to the StanfordCoreNLP configuration as the annotator options.
 
 ## Operations
 

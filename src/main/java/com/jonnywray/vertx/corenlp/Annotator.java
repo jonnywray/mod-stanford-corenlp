@@ -62,6 +62,11 @@ public class Annotator extends BusModBase implements Handler<Message<JsonObject>
         }
     }
 
+    @Override
+    public void stop(){
+        StanfordCoreNLP.clearAnnotatorPool();
+    }
+
     public void handle(Message<JsonObject> message) {
         String action = message.body().getString("action");
         if (action == null) {

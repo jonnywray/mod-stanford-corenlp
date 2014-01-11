@@ -4,3 +4,5 @@
 *.jar
 *.war
 *.ear
+mod-stanford-corenlp.ipr
+mod-stanford-corenlp.iws
